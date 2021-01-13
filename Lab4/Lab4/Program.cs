@@ -11,64 +11,136 @@ namespace Lab4
     {
         static void Main(string[] args)
         {
+            MyArray();
+            Matrix();
+        
+            Console.ReadLine(); 
+        }
 
-            Random dice = new Random();
-            int[] arr = new int[20];
+        public static void MyArray()
+        {
+            Random rm = new Random();
+            int[] myArray = new int[21];
 
-            //формируем массив рандомных чисел;
-            for (int i = 0; i < arr.Length; i++)
+            for (int i = 0; i < myArray.Length; i++)
             {
-                try
-                {
-                    arr[i] = dice.Next(0,100);
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
-                finally
-                {
-                    Console.WriteLine(arr[i]);
-                }
+                // Наполняем массив рандомными числами
+                myArray[i] = rm.Next(0, 100);
+            }
             
+            // Сортируем
+            Array.Sort(myArray);
+            int temp;
+
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                // Находим максимальное и минимальное значение
+                int maxValue = myArray.Max<int>();
+                int minValue = myArray.Min<int>();
+
+                // Вывод начального отсортированого массива
+                Console.WriteLine(myArray[i]); 
+
+                if (myArray[i] == maxValue)
+                {
+                    // передаем переменной значения минимально в массиве
+                    temp = minValue;
+                    // Ставим макчимальний элемент на место минимального
+                    myArray[0] = myArray[i];
+                    // Ставим минимальный на место максимального 
+                    myArray[20] = temp;
+                }
+
+            }
+
+            Console.WriteLine("\n");
+            Console.WriteLine("Измененный массив.");
+            for (int j = 0; j < myArray.Length; j++)
+            {
+                Console.WriteLine(myArray[j]);
+            }
+
+            Console.WriteLine("\n");
+
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                // Находим максимальное и минимальное значение
+                int maxValue = myArray.Max<int>();
+
+                // Вывод начального отсортированого массива
+                Console.WriteLine(myArray[i]);
+
+                if (myArray[i] == maxValue)
+                {
+                    temp = myArray[19];
+                    myArray[19] = maxValue;
+                    // Ставим минимальный на место максимального 
+                    myArray[20] = temp;
+                    
+                    
+                }
+
+            }
+
+            Console.WriteLine("\n");
+            Console.WriteLine("Измененный массив.");
+
+            for (int j = 0; j < myArray.Length; j++)
+            {
+                Console.WriteLine(myArray[j]);
             }
 
 
-            //var max = arr.Max();
-            //var min = arr.Min();
-            //Console.WriteLine($"Максимальный элемент: {max}\nМинимальный элемент: {min}");
-            int max_i = Max_ind(arr);
-            int min_i = Min_ind(arr);
-            int tmp = arr[max_i];
-            arr[max_i] = arr[min_i];
-            arr[min_i] = tmp;
-            Console.WriteLine("Измененный массив: ");
-            Console.WriteLine(arr);
-            Console.ReadKey(true);
-
-
-
-            Console.ReadLine();
-        
         }
 
-        static int Max_ind(int[] a)
+        public static void Matrix()
         {
-            int max_i = 0;
-            for (int i = 1; i < a.Length; ++i)
-                if (a[i] >= a[max_i]) max_i = i;
-            return max_i;
-        }
+            Random r = new Random();
+            int[,] Mass = new int[3, 3];
+            int s = 1;
+            int i, j;
+            string byf;
+            Console.Write("1 - Ввод вручную, 2 - Рандомный ввод: ");
+            byf = Console.ReadLine();
+            switch (byf)
+            {
+                case "1":
+                    for (i = 0; i < Mass.GetLength(0); ++i)
+                        for (j = 0; j < Mass.GetLength(1); ++j)
+                        {
+                            Console.Write("введите " + i + " " + j + " элемент: ");
+                            Mass[i, j] = int.Parse(Console.ReadLine());
+                        }
+                    break;
 
-        static int Min_ind(int[] a)
-        {
-            int min_i = a.Length - 1;
-            for (int i = a.Length - 1; i > 0; --i)
-                if (a[i - 1] <= a[min_i]) min_i = i - 1;
-            return min_i;
-        }
+                case "2":
+                    for (i = 0; i < Mass.GetLength(0); i++)
 
-        
-    }   
+                        for (j = 0; j < Mass.GetLength(1); j++)
+                            Mass[i, j] = r.Next(0, 20);
+                    break;
+                default:
+                    Console.Write("Ошибка!");
+                    Console.WriteLine();
+                    Console.ReadKey();
+                    return;
+            }
+
+            Console.Write("Массив:");
+            for (i = 0; i < Mass.GetLength(0); i++)
+            {
+                Console.WriteLine();
+                for (j = 0; j < Mass.GetLength(1); j++)
+                {
+                    Console.Write(Mass[i, j] + " ");
+                    if (i == j) s *= Mass[i, j];
+                }
+            }
+            Console.WriteLine();
+            Console.Write("Произведение элементов " + s);
+            Console.ReadKey();
+        }
+    }
 
 }
+
