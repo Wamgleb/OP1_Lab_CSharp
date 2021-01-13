@@ -96,7 +96,7 @@ namespace Lab4
         public static void Matrix()
         {
             Random r = new Random();
-            int[,] Mass = new int[3, 3];
+            int[,] Mass = new int[4, 3];
             int s = 1;
             int i, j;
             string byf;
