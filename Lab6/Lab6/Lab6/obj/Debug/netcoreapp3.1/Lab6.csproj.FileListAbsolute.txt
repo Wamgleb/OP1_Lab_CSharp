@@ -1,0 +1,13 @@
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab6\Lab6\Lab6\bin\Debug\netcoreapp3.1\Lab6.exe
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab6\Lab6\Lab6\bin\Debug\netcoreapp3.1\Lab6.deps.json
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab6\Lab6\Lab6\bin\Debug\netcoreapp3.1\Lab6.runtimeconfig.json
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab6\Lab6\Lab6\bin\Debug\netcoreapp3.1\Lab6.runtimeconfig.dev.json
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab6\Lab6\Lab6\bin\Debug\netcoreapp3.1\Lab6.dll
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab6\Lab6\Lab6\bin\Debug\netcoreapp3.1\Lab6.pdb
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab6\Lab6\Lab6\obj\Debug\netcoreapp3.1\Lab6.csprojAssemblyReference.cache
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab6\Lab6\Lab6\obj\Debug\netcoreapp3.1\Lab6.AssemblyInfoInputs.cache
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab6\Lab6\Lab6\obj\Debug\netcoreapp3.1\Lab6.AssemblyInfo.cs
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab6\Lab6\Lab6\obj\Debug\netcoreapp3.1\Lab6.csproj.CoreCompileInputs.cache
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab6\Lab6\Lab6\obj\Debug\netcoreapp3.1\Lab6.dll
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab6\Lab6\Lab6\obj\Debug\netcoreapp3.1\Lab6.pdb
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab6\Lab6\Lab6\obj\Debug\netcoreapp3.1\Lab6.genruntimeconfig.cache

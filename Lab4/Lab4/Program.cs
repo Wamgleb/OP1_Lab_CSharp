@@ -66,13 +66,14 @@ namespace Lab4
             {
                 // Находим максимальное и минимальное значение
                 int maxValue = myArray.Max<int>();
+                int minValue = myArray.Min<int>();
 
                 // Вывод начального отсортированого массива
                 Console.WriteLine(myArray[i]);
 
                 if (myArray[i] == maxValue)
                 {
-                    temp = myArray[19];
+                    temp = minValue;
                     myArray[19] = maxValue;
                     // Ставим минимальный на место максимального 
                     myArray[20] = temp;

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Lab5
 {
     public partial class Form1 : Form
@@ -32,7 +33,7 @@ namespace Lab5
             KvUr();
         }
 
-        private void KvUr()
+        public void KvUr()
         {
             int x = 0;
             int z = 0;
