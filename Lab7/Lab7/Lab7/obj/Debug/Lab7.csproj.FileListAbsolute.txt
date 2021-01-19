@@ -1,0 +1,10 @@
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab7\Lab7\Lab7\bin\Debug\Lab7.exe.config
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab7\Lab7\Lab7\bin\Debug\Lab7.exe
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab7\Lab7\Lab7\bin\Debug\Lab7.pdb
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab7\Lab7\Lab7\obj\Debug\Lab7.csprojAssemblyReference.cache
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab7\Lab7\Lab7\obj\Debug\Lab7.Form1.resources
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab7\Lab7\Lab7\obj\Debug\Lab7.Properties.Resources.resources
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab7\Lab7\Lab7\obj\Debug\Lab7.csproj.GenerateResource.cache
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab7\Lab7\Lab7\obj\Debug\Lab7.csproj.CoreCompileInputs.cache
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab7\Lab7\Lab7\obj\Debug\Lab7.exe
+C:\Users\Gleb\Documents\Repo_location\OP1_Lab_CSharp\Lab7\Lab7\Lab7\obj\Debug\Lab7.pdb
